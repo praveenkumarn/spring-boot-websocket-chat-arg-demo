@@ -6,6 +6,7 @@ MAINTAINER Praveen Kumar N<praveenkumar.nagarajan@gmail.com>
 
 # environment variable with default value
 ENV SPRING_PROFILE=DEV
+ENV SPRING_MAXCONN=2
 
 # Add a volume pointing to /tmp
 VOLUME /tmp
